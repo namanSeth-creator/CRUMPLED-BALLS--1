@@ -6,12 +6,17 @@ class dustbin{
             'friction':1,
             'density':0.1
         }
-        
-   
-    width:200px;
-    height:20px;
+           
+      World.add(world, this.body);
+    }
+    display(){
+      rectMode(CENTER);
 
-		 this.body = Bodies.rectangle(x, y, width, height, options);
+      fill(255);
+
+      rect(this.body.position.x, this.body.position.y, this.width, this. height);
+    }
+	this.body = Bodies.rectangle(x, y, width, height, options);
       this.width = width;
       this.height = height;
       

@@ -18,7 +18,7 @@ function setup() {
 
 	//Create the Bodies Here.
 	paper = new Paper(100, 600, 10);
-  	ground = new Ground(400, 680, 800, 20);
+  ground = new Ground(400, 680, 800, 20);
 
 	Engine.run(engine);
   

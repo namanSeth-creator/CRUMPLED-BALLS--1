@@ -10,13 +10,12 @@ class Paper {
             this.body = Bodies.circle(x, y, radius, options);
 	    this.radius = radius;
 	        World.add(world, this.body);
-      display();
+      display();{
         ellipseMode(RADIUS);
 
         fill("yellow");
     
         circle(this.body.position.x, this.body.position.y, this.radius);
-      }
-    
-  }
-    
+    }
+}
+}

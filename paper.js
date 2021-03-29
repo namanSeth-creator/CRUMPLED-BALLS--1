@@ -7,15 +7,15 @@ class Paper {
             'isStatic' : false
         }
          this.radius = radius
-            this.body = Bodies.circle(x, y, radius, options);
-	    this.radius = radius;
-	        World.add(world, this.body);
-      display();{
-        ellipseMode(RADIUS);
+         this.body = Bodies.circle(x, y, radius, options);
+	     this.radius = radius;
+	     World.add(world, this.body);
+         //display(){
+         ellipseMode(RADIUS);
 
-        fill("yellow");
+         fill("yellow");
     
-        circle(this.body.position.x, this.body.position.y, this.radius);
+            circle(this.body.position.x, this.body.position.y, this.radius);
+        }
     }
-}
-}
+//}

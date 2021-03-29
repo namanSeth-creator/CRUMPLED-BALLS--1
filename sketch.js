@@ -28,11 +28,11 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(0);
-Engine.update(engine);
+  Engine.update(engine);
 
   paper.display();
 
-  ground.display();
+  Ground.display();
   
   drawSprites();
  

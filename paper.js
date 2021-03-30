@@ -14,8 +14,9 @@ class Paper {
          ellipseMode(RADIUS);
 
          fill("yellow");
-    
-            circle(this.body.position.x, this.body.position.y, this.radius);
-        }
+
+         var pos = this.body.position;
+         circle(pos.x, pos.y, this.radius);
+         //}
     }
-//}
+};
